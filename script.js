@@ -503,7 +503,6 @@ function getHillY(windowX, baseHeight, amplitude, stretch) {
     sineBaseY
   );
 }
-
 function getTreeY(x, baseHeight, amplitude) {
   const sineBaseY = window.innerHeight - baseHeight;
   return Math.sinus(x) * amplitude + sineBaseY;
